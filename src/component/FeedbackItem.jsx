@@ -15,7 +15,7 @@ function FeedbackItem({item, handleDelete}) {
     return(
         <Card>
             
-            <button onClick={handlelike(item.id)}
+            <button onClick={handlelike}
             className="like">
                 <FaHeart color="purple"/>
             </button>

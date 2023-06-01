@@ -10,6 +10,7 @@ import {v4 as uuidv4} from 'uuid';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Aboutpage from './component/pages/Aboutpage';
 import Aboutlinkicon from './component/Aboutlinkicon';
+
 function App(){
     const[feedback,setfeedback]=useState(Feedbackdata);
     
@@ -23,7 +24,7 @@ function App(){
         setfeedback([newFeedback,...feedback]);
     }
     return(
-        <Router>
+        <>
         <Header  />
        
         <div className='container'>
@@ -43,8 +44,9 @@ function App(){
            </Routes> 
            
         </div>
+        </>
        
-        </Router>
+       
      
        
         
