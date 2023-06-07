@@ -140,17 +140,20 @@ input:focus {
   background: none;
   border: none;
 }
+.edit {
+  right: 40px;
+}
 .like,
 .editd {
   position: absolute;
   top: 10px;
-  right: 40px;
+  right: 20px;
   cursor: pointer;
   background: none;
   border: none;
 }
 .editd {
-  right: 40px;
+  right: 30px;
 }
 
 .btn {
